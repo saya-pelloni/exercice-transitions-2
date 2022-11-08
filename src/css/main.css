@@ -1,0 +1,135 @@
+/* Base */
+
+:root {
+  --spanish-orange: #e8630a;
+  --powder-blue: #b6e1e0;
+  --yankees-blue: #193142;
+  --white: #fff;
+  --lightgrey: #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding-bottom: 100px;
+  color: var(--yankees-blue);
+}
+
+a {
+  color: inherit;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+img {
+  display: block;
+}
+
+video {
+  max-width: 100%;
+}
+
+/* Layout */
+
+.l-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.l-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.l-row {
+  display: flex;
+}
+
+.l-col {
+  width: 50%;
+  border: solid 1px var(--yankees-blue);
+  transition: box-shadow 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.l-col:first-child {
+  padding: 30px;
+  border-right: 0;
+}
+
+/* Modules - video */
+
+.video-button {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.video-button:hover {
+  opacity: 0.6;
+}
+
+.video-button-pause {
+  display: none;
+}
+
+.video-container.is-playing .video-button-pause {
+  display: inline;
+}
+
+.video-container.is-playing .video-button-play {
+  display: none;
+}
+
+.video-wrapper {
+  transition: box-shadow 0.4s;
+}
+
+.video-container.is-active .video-wrapper,
+.video-container.is-playing .video-wrapper {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Modules - exercices */
+
+.recipe {
+  display: inline-block;
+  padding: 5px;
+  background: var(--white);
+  border: 1px solid var(--lightgrey);
+  cursor: pointer;
+}
+
+.recipe-header {
+  padding: 15px 5px 10px;
+}
+
+.recipe-title {
+  color: var(--spanish-orange);
+  font-size: 18px;
+}
+
+#ex03 .recipe {
+  background: var(--spanish-orange);
+  border: none;
+}
+
+#ex03 .recipe-title {
+  color: var(--white);
+}
