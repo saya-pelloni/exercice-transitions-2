@@ -1,4 +1,4 @@
-# Exercice transitions 1
+# Exercice transitions 2
 
 Reproduisez les effets au survol visibles dans les vidéos de la colonne de droite.
 
