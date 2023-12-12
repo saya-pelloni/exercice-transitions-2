@@ -2,19 +2,7 @@
 
 ## Installation
 
-- Créez un fork et clonez le repository sur votre ordinateur
-- Ouvrez le terminal dans Visual Studio Code
-- Installez les paquets NPM
-
-```
-npm install
-```
-
-- Lancez le serveur de développement
-
-```
-npm run dev
-```
+Créez un fork et clonez le repository sur votre ordinateur
 
 ## Consigne
 
