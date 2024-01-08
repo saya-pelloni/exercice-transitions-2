@@ -1,0 +1,23 @@
+#ex01 .recipe {
+  transition-duration: 0.4s;
+}
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+#ex02 .recipe {
+  transition-duration: 0.4s;
+}
+
+#ex02 .recipe:hover {
+  transform: rotate(35deg);
+}
+
+#ex03 .recipe {
+  transition-duration: 0.4s;
+}
+
+#ex03 .recipe:hover {
+  transform: rotate(45deg);
+}
